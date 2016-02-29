@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "bookstore",
+    "packageName": "com.lmt.bookstore",
+    "packageFolder": "com/lmt/bookstore",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "no",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "gulp",
+    "enableTranslation": true,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "6d85fc7dec941620e7a620f9c2c537ceed1dadea",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}
