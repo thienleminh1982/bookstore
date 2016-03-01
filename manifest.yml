@@ -1,0 +1,11 @@
+---
+applications:
+- name: bookstore
+  buildpack: java_buildpack
+  instances: 1
+  host: bookstore-${random-word}
+  path: target/bookstore-0.0.1-SNAPSHOT.war
+  services:
+    - psql
+  env:
+    SPRING_PROFILES_ACTIVE: prod

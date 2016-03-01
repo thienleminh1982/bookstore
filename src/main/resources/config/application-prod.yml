@@ -23,7 +23,7 @@ spring:
         url: jdbc:postgresql://localhost:5432/bookstore
         name:
         username: bookstore
-        password:
+        password: pass
     jpa:
         database-platform: com.lmt.bookstore.domain.util.FixedPostgreSQL82Dialect
         database: POSTGRESQL

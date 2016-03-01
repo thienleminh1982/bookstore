@@ -73,3 +73,13 @@ To setup this project in Jenkins, use the following configuration:
 [Karma]: http://karma-runner.github.io/
 [Jasmine]: http://jasmine.github.io/2.0/introduction.html
 [Protractor]: https://angular.github.io/protractor/
+
+# Customization by Minh-Thien Le
+The bookstore application is created from scratch, following instruction from this [Youtube clip](https://www.youtube.com/watch?v=d1MEM8PdAzQ&index=1&list=PLcLeNQwLzYxPZ2ML-Wk5VI5Cq5ztJY3Kr)
+
+## Deploy to PWS: OK
+* I don't use the command "yo jhipster:cloudfoundry".
+* I create my own deployment file "manifest.yml", which will allow me to have more control of my deployment.
+
+## Deploy to Heroku
+
